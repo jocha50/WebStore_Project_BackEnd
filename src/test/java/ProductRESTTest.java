@@ -17,7 +17,7 @@ public class ProductRESTTest {
 //    }
     @BeforeClass
     public static void setup() {
-        RestAssured.port = Integer.valueOf(8080);
+        RestAssured.port = Integer.valueOf(8081);
         RestAssured.baseURI = "http://localhost";
         RestAssured.basePath = "";
     }
